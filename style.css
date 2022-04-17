@@ -34,6 +34,7 @@ form button {
 form input {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  margin: 0 -5px 0 0;
 }
 form input:focus {
   border: 1px solid none;

@@ -8,6 +8,7 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>JavaScript Todo List</title>
+
     <link
       href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
       rel="stylesheet"
@@ -19,17 +20,20 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./style.css" />
+
   </head>
 
   <body>
     <header>
-      <h1>Todo List</h1>
+      <h1 class="hero-text">Todo List</h1>
     </header>
-    <form>
-      <input type="text" class="todo-input" />
-      <button class="todo-button" type="submit">
-        <i class="fas fa-plus-square"></i>
-      </button>
+    <form >
+      <div class="input-container">
+        <input type="text" class="todo-input" />
+        <button class="todo-button" type="submit">
+          <i class="fas fa-plus-square"></i>
+        </button>
+      </div>
       <div class="select">
         <select name="todos" class="filter-todo">
           <option value="all">All</option>
@@ -40,10 +44,9 @@
     </form>
     <div class="todo-container">
       <ul class="todo-list">
-
       </ul>
     </div>
-
-    <script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js" ></script>
+    <script  src="./script.js" ></script>
   </body>
 </html>
